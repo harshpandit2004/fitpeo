@@ -1,7 +1,7 @@
 .cardelement {
   background-color: #202128;
   /* min-width: 10rem; */
-  width: 7rem;
+  width: 9rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -68,7 +68,7 @@
 .cardelements {
   display: flex;
   flex-wrap: wrap;
-  max-width: 40rem;
+  max-width: 50rem;
 }
 
 /*Media Queries:*/

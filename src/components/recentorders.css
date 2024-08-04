@@ -1,0 +1,78 @@
+.recent-orders {
+  background-color: #202128;
+  /* min-width: 10rem; */
+  width: 49rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.recent-orders-header {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #2a2a32;
+}
+
+td {
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid #2a2a32;
+}
+
+.delivered {
+  /* color: #6fe753; */
+  background-color: #205247;
+  border-radius: 16px;
+  margin: 0;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.cancelled {
+  /* color: #6fe753; */
+  background-color: #5e3338;
+  border-radius: 16px;
+  margin: 0;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.customer-name {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+/*Media Queries:*/
+
+/* mobile screens */
+@media only screen and (min-width: 168px) and (max-width: 960px) {
+  .recent-orders {
+    width: 88vw;
+  }
+}
+
+/* tablet screens */
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
+  .recent-orders {
+    width: 94vw;
+  }
+}

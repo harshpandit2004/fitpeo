@@ -1,7 +1,7 @@
 import React from 'react'
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import DoughnutChart from "./DoughnutChart";
-
+import './netprofit.css';
 function NetProfitElement() {
     return (
         <div className="net-profit">
