@@ -1,0 +1,79 @@
+.App {
+  background-color: #141316;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.page {
+  margin-left: 5rem;
+}
+
+.topbar {
+  background-color: #202128;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.page-header {
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.row-01 {
+  display: flex;
+  flex-direction: row;
+}
+
+.net-profit {
+  flex-grow: 100;
+  margin: 1rem;
+  background-color: #202128;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.np-text-head {
+  margin: 0;
+}
+
+.np-text-body {
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.np-text-stonks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.75rem;
+  color: #5bca8d;
+}
+
+/*Media Queries:*/
+
+/* mobile screens */
+@media only screen and (min-width: 168px) and (max-width: 960px) {
+  .page {
+    margin-left: 0;
+  }
+  .row-01 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* tablet screens */
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
+  .page {
+    margin-left: 0;
+  }
+  .row-01 {
+    display: flex;
+    flex-direction: column;
+  }
+}
