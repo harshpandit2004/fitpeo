@@ -31,6 +31,10 @@
 
 .net-profit {
   flex-grow: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   margin: 1rem;
   background-color: #202128;
   padding: 1rem;
@@ -38,7 +42,12 @@
 }
 
 .np-text-head {
+  /* font-weight: 300; */
+  color: #dcdedf;
   margin: 0;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
 }
 
 .np-text-body {
