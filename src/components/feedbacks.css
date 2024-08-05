@@ -1,0 +1,49 @@
+.customer-feedback {
+  background-color: #202128;
+  /* min-width: 10rem; */
+  width: 51rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.feedback-card {
+  border-bottom: 1px solid #2a2a32;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.feedback-card-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.feedback-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  gap: 0.5rem;
+}
+
+.feedback-header-text {
+  margin: 0;
+}
+
+.feedback-header-text-review {
+  margin: 0;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.feedback-card-body {
+  color: #707174;
+}

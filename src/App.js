@@ -4,8 +4,9 @@ import CardElements from "./components/CardElements";
 import NetProfitElement from "./components/NetProfitElement";
 import RecentOrdersComponent from "./components/RecentOrdersComponent";
 import Feedbacks from "./components/Feedbacks";
-function App() {
+import BarChart from "./components/BarChart";
 
+function App() {
   return (
     <div className="App">
       <Sidebar />
@@ -15,6 +16,10 @@ function App() {
         <div className="row-01">
           <CardElements />
           <NetProfitElement />
+        </div>
+        <div className="row-02">
+          <BarChart />
+          <div className="navigation">navigation</div>
         </div>
         <div className="row-03">
           <RecentOrdersComponent />

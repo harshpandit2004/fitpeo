@@ -1,0 +1,49 @@
+.bar-chart {
+  background-color: #202128;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 50vw;
+  height: 50vh;
+}
+
+.bar-chart-header {
+  margin: 0;
+  width: 100%;
+}
+
+/*Media Queries:*/
+
+/* mobile screens */
+@media only screen and (min-width: 168px) and (max-width: 960px) {
+  .bar-chart {
+    width: 92vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 1rem; */
+  }
+  .bar-chart-header {
+    padding-top: 1rem;
+    width: 100%;
+  }
+}
+
+/* tablet screens */
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
+  .bar-chart {
+    width: 92vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 1rem; */
+  }
+  .bar-chart-header {
+    padding-top: 1rem;
+    width: 100%;
+  }
+}
