@@ -11,16 +11,6 @@
   height: 100%;
 }
 
-.topbar {
-  background-color: #202128;
-  width: calc(100%-5rem);
-  height: 5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
-}
-
 .page-header {
   margin: 1rem;
   margin-bottom: 0;
