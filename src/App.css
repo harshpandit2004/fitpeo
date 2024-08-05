@@ -41,16 +41,6 @@
   flex-direction: row;
 }
 
-.navigation {
-  background-color: #202128;
-  margin-left: 0.5rem;
-  border-radius: 8px;
-  padding: 1rem;
-  width: 37vw;
-  height: 50vh;
-  margin-left: 1.5rem;
-}
-
 /*Media Queries:*/
 
 /* mobile screens */
@@ -69,14 +59,6 @@
   .row-03 {
     flex-direction: column;
   }
-  .navigation {
-    margin: auto;
-    width: 93%;
-    margin-top: 1rem;
-  }
-  .customer-feedback {
-    width: 88vw;
-  }
 }
 
 /* tablet screens */
@@ -94,13 +76,5 @@
   }
   .row-03 {
     flex-direction: column;
-  }
-  .navigation {
-    margin: auto;
-    width: 93%;
-    margin-top: 1rem;
-  }
-  .customer-feedback {
-    width: 94vw;
   }
 }

@@ -5,6 +5,7 @@ import NetProfitElement from "./components/NetProfitElement";
 import RecentOrdersComponent from "./components/RecentOrdersComponent";
 import Feedbacks from "./components/Feedbacks";
 import BarChart from "./components/BarChart";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         </div>
         <div className="row-02">
           <BarChart />
-          <div className="navigation">navigation</div>
+          <Navigation />
         </div>
         <div className="row-03">
           <RecentOrdersComponent />

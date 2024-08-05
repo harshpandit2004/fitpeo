@@ -47,3 +47,19 @@
 .feedback-card-body {
   color: #707174;
 }
+
+/*Media Queries:*/
+
+/* mobile screens */
+@media only screen and (min-width: 168px) and (max-width: 960px) {
+  .customer-feedback {
+    width: 88vw;
+  }
+}
+
+/* tablet screens */
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
+  .customer-feedback {
+    width: 94vw;
+  }
+}

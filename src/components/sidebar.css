@@ -13,7 +13,7 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
@@ -21,11 +21,15 @@
 }
 
 .element {
-  border-left: 2px solid blue;
   width: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.active {
+  border-left: 2px solid blue;
 }
 
 /*Media Queries:*/
