@@ -33,8 +33,15 @@
 }
 
 /*Media Queries:*/
+/* mobile screens */
+@media only screen and (min-width: 168px) and (max-width: 960px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+}
 
-@media only screen and (max-width: 1250px) {
+/* tablet screens */
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
   .sidebar-wrapper {
     display: none;
   }

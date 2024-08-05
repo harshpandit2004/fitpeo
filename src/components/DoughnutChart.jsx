@@ -5,13 +5,14 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const DoughnutChart = () => {
   const data = {
-    labels: ["Blue", "Grey"],
+    labels: ["Goals Completed"],
     datasets: [
       {
-        label: "Goal Achieved",
         data: [70, 30],
-        backgroundColor: ["#7394F7", "#2A3268"],
-        borderWidth: 1,
+        backgroundColor: ["#7394F7", "#202128"],
+        borderWidth: 0,
+        borderRadius: 50,
+        cutout: 40,
       },
     ],
   };

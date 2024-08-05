@@ -6,13 +6,14 @@ import RecentOrdersComponent from "./components/RecentOrdersComponent";
 import Feedbacks from "./components/Feedbacks";
 import BarChart from "./components/BarChart";
 import Navigation from "./components/Navigation";
+import Topbar from "./components/Topbar";
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
       <div className="page">
-        <div className="topbar">topbar</div>
+        <Topbar />
         <h2 className="page-header">Dashboard</h2>
         <div className="row-01">
           <CardElements />
